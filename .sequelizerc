@@ -1,0 +1,8 @@
+const {resolve} = requer ("caminho");
+
+module.exports = {
+  config: resolve (__ dirname, "src", "config", "database.js"),
+  "models-path": resolve (__ dirname, "src", "app", "models"),
+  "migrations-path": resolve (__ dirname, "src", "banco de dados", "migrações"),
+  "seeders-path": resolve (__ dirname, "src", "banco de dados", "sementes"),
+};
